@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/index.css">
+  <title>Alphabot Controller</title>
+</head>
+<body>
+
+  <button onclick="return motion('f');">forward</button>
+  <button onclick="return motion('b');">backward</button>
+  <button onclick="return motion('l');">left</button>
+  <button onclick="return motion('r');">right</button>
+  <button onclick="return motion('s');">stop</button>
+
+  <img src="{{ url_for('calc') }}">
+
+  <script>
+
+    const motion = (dir) => {
+      fetch(`/motion?d=` + dir, {
+        method: 'POST',
+        body = JSON.stringify({ d: dir })
+      }).then(console.log)
+    }
+
+  </script>
+
+</body>
+</html>

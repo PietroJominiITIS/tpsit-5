@@ -1,0 +1,3 @@
+Connected with sid=7e18e872-1caa-42d5-905d-1fe0c4eb19d8
+	Server requested halt
+Disconnected with status=True

@@ -1,0 +1,18 @@
+Connected with sid=92191f8e-4953-4185-b4c8-1b89a183858f
+	Queued for operation 40 + 2
+		Solved operation 40 + 2 as 42
+		Solution submitted
+	Queued for operation 3.14159 / 2
+		Solved operation 3.14159 / 2 as 1.570795
+		Solution submitted
+	Queued for operation 2 + 2 * 2
+		Solved operation 2 + 2 * 2 as 6
+		Solution submitted
+	Queued for operation 10**10
+		Solved operation 10**10 as 10000000000
+		Solution submitted
+	Queued for operation 101010+2020202
+		Solved operation 101010+2020202 as 2121212
+		Solution submitted
+	Server requested halt
+Disconnected with status=True
